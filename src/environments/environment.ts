@@ -3,7 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  googleAuth_Client_id:'337555989886-u8re613qgve336g9bnq0ju2281k4cp21.apps.googleusercontent.com',
+  googleAuth_Redirect_uri:'http://localhost:4200',
+  googleAuth_Scope:'https://www.googleapis.com/auth/userinfo.profile',
+  googleAuth_discoverDocs:["https://analyticsreporting.googleapis.com/$discovery/rest?version=v4"]
 };
 
 /*

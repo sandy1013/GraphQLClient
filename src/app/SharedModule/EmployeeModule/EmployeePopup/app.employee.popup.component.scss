@@ -1,0 +1,29 @@
+.employee-popup {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-items: end;
+    justify-content: center;
+
+    position: absolute;
+    top: 10%;
+    width: 45%;
+}
+
+.mask {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba($color: black, $alpha: 0.4);
+    z-index: 998;
+}
+
+.employee-form {
+    z-index: 999;
+    background: white;
+    padding: 15px;
+    width: 100%;
+    height:auto;
+}
